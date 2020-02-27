@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CameraSample</string>
+    <string name="no_data">No data</string>
+    <string name="open_camera_btn">Open camera</string>
+    <string name="token_hint">API token</string>
+    <string name="language_hint">Language code</string>
+    <string name="retry_btn">Retry</string>
+    <string name="permission_rejected">Permission rejected</string>
+    <string name="permission_rejected_once">You need to accept the permission to open the camera.</string>
+    <string name="permission_rejected_always">The application will not be able to open the camera if the permissions are not accepted.</string>
+</resources>

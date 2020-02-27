@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  ios-app
+
+  Created by Jaime Alcántara on 27/02/2020.
+  Copyright © 2020 IceRock Development. All rights reserved.
+*/
+
+"Ok" = "ok";
+"permission_rejected" = "Permission rejected";
+"permission_rejected_once" = "You need to accept the permission to open the camera.";
+"permission_rejected_always" = "The application will not be able to open the camera if the permissions are not accepted.";
