@@ -1,6 +1,3 @@
-/*
- * Copyright 2019 IceRock MAG Inc. Use of this source code is governed by the Apache 2.0 license.
- */
 
 import Foundation
 import UIKit
@@ -8,7 +5,7 @@ import MultiPlatformLibrary
 import MultiPlatformLibraryMvvm
 import SkyFloatingLabelTextField
 
-class ConfigViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     private var viewModel: CameraViewModel!
     
@@ -22,7 +19,7 @@ class ConfigViewController: UIViewController, UIImagePickerControllerDelegate, U
     @IBAction func onSubmitPressed() {
         viewModel.onSubmitPressed()
     }
-    
+
     func showAlert(title: String, description: String) {
         let alert = UIAlertController(title: title, message: description, preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction(title: NSLocalizedString("Ok", comment: ""), style: UIAlertActionStyle.default, handler: nil))
@@ -35,7 +32,7 @@ class ConfigViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
 }
 
-extension ConfigViewController: CameraViewModelEventsListener {
+extension CameraViewController: CameraViewModelEventsListener {
     func onDenied(exception: DeniedException) {
         showAlert(title: NSLocalizedString("permission_rejected", comment: ""), description: NSLocalizedString("permission_rejected_once", comment: ""))
     }

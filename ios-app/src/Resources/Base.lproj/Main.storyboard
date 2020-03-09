@@ -23,10 +23,10 @@
             </objects>
             <point key="canvasLocation" x="-5946" y="-1482"/>
         </scene>
-        <!--moko-app-->
+        <!--Camera View Controller-->
         <scene sceneID="heM-ap-51W">
             <objects>
-                <viewController id="tpQ-LY-4wm" customClass="ConfigViewController" customModule="mokoApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tpQ-LY-4wm" customClass="CameraViewController" customModule="CameraSample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MKQ-Qk-EWk"/>
                         <viewControllerLayoutGuide type="bottom" id="Ba9-2V-dd9"/>
@@ -49,7 +49,7 @@
                             <constraint firstItem="aeS-KV-Tvh" firstAttribute="top" secondItem="MKQ-Qk-EWk" secondAttribute="bottom" constant="30" id="tKT-vx-q8H"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="moko-app" id="ftM-lC-K7M"/>
+                    <navigationItem key="navigationItem" id="ftM-lC-K7M"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eQs-JZ-rVh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

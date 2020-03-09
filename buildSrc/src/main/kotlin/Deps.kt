@@ -30,9 +30,6 @@ object Deps {
             val recyclerView = AndroidLibrary(
                 name = "androidx.recyclerview:recyclerview:${Versions.Libs.Android.recyclerView}"
             )
-            val constraintLayout = AndroidLibrary(
-                name = "androidx.constraintlayout:constraintlayout:${Versions.Libs.Android.constraintLayout}"
-            )
             val lifecycle = AndroidLibrary(
                 name = "androidx.lifecycle:lifecycle-extensions:${Versions.Libs.Android.lifecycle}"
             )
@@ -68,16 +65,6 @@ object Deps {
                 iosX64 = "dev.icerock.moko:parcelize-iosx64:${Versions.Libs.MultiPlatform.mokoParcelize}",
                 iosArm64 = "dev.icerock.moko:parcelize-iosarm64:${Versions.Libs.MultiPlatform.mokoParcelize}"
             )
-            val mokoGraphics = MultiPlatformLibrary(
-                common = "dev.icerock.moko:graphics:${Versions.Libs.MultiPlatform.mokoGraphics}",
-                iosX64 = "dev.icerock.moko:graphics-iosx64:${Versions.Libs.MultiPlatform.mokoGraphics}",
-                iosArm64 = "dev.icerock.moko:graphics-iosarm64:${Versions.Libs.MultiPlatform.mokoGraphics}"
-            )
-            val mokoTime = MultiPlatformLibrary(
-                common = "dev.icerock.moko:time:${Versions.Libs.MultiPlatform.mokoTime}",
-                iosX64 = "dev.icerock.moko:time-iosx64:${Versions.Libs.MultiPlatform.mokoTime}",
-                iosArm64 = "dev.icerock.moko:time-iosarm64:${Versions.Libs.MultiPlatform.mokoTime}"
-            )
             val mokoMvvm = MultiPlatformLibrary(
                 common = "dev.icerock.moko:mvvm:${Versions.Libs.MultiPlatform.mokoMvvm}",
                 iosX64 = "dev.icerock.moko:mvvm-iosx64:${Versions.Libs.MultiPlatform.mokoMvvm}",
@@ -92,11 +79,6 @@ object Deps {
                 common = "dev.icerock.moko:permissions:${Versions.Libs.MultiPlatform.mokoPermissions}",
                 iosX64 = "dev.icerock.moko:permissions-iosx64:${Versions.Libs.MultiPlatform.mokoPermissions}",
                 iosArm64 = "dev.icerock.moko:permissions-iosarm64:${Versions.Libs.MultiPlatform.mokoPermissions}"
-            )
-            val mokoMedia = MultiPlatformLibrary(
-                common = "dev.icerock.moko:media:${Versions.Libs.MultiPlatform.mokoMedia}",
-                iosX64 = "dev.icerock.moko:media-iosx64:${Versions.Libs.MultiPlatform.mokoMedia}",
-                iosArm64 = "dev.icerock.moko:media-iosarm64:${Versions.Libs.MultiPlatform.mokoMedia}"
             )
             val mokoNetwork = MultiPlatformLibrary(
                 common = "dev.icerock.moko:network:${Versions.Libs.MultiPlatform.mokoNetwork}",
